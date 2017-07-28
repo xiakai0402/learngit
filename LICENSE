@@ -1,3 +1,4 @@
+test xshell
 cd /data/wfw/
 ll
 cd /tomcat/bin
