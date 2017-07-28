@@ -1,0 +1,25 @@
+cd /data/wfw/
+ll
+cd /tomcat/bin
+./shutdown.sh
+ps -ef|grep java
+ps aux|grep tocmat
+kill -9 id
+ps -ef|grep java
+cd ..
+cd /webapps
+ll
+rm -rf app app.bak
+ll
+./startup.sh
+upload app lianj 
+./shutdown.sh
+ps -ef|grep java
+ps aux|grep tomcat
+kill -9 id
+ps -ef|grep java
+cd /data/wfw/tomcat/webapps
+cd /app/web-inf/classes/pp(update mysql username password)
+cd /lianj/web-inf/classes/pp(update mysql username password)
+cd /apptence/web-inf/classes/spring/db(update mysql username password url)
+./startup.sh
